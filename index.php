@@ -22,10 +22,10 @@
 		<h1 class="main-picture__paige-title">
 			<?php switch ($lang) {
 				case 'ua':
-					echo "RSM &mdash; ГЛОБАЛЬНЕ ПРИЗНАЧЕННЯ ДЛЯ ВАШОГО АУДИТУ, ОПОДАТКУВАННЯ ТА КОНСАЛТИНГУ";
+					echo "RSM &ndash; ГЛОБАЛЬНЕ ПРИЗНАЧЕННЯ ДЛЯ ВАШОГО АУДИТУ, ОПОДАТКУВАННЯ ТА КОНСАЛТИНГУ";
 					break;
 				case 'en':
-					echo "RSM &mdash; THE GLOBAL DESTINATION FOR YOUR AUDIT, TAX AND CONSULTING NEEDS";
+					echo "RSM &ndash; THE GLOBAL DESTINATION FOR YOUR AUDIT, TAX AND CONSULTING NEEDS";
 					break;
 			}?>
 		</h1>

@@ -5,7 +5,7 @@
 		<?php
 			switch ($lang) {
 				case 'ua':
-					echo "РСМ Україна - Аудит | Оподаткування | Консалтинг";
+					echo "Test РСМ Україна - Аудит | Оподаткування | Консалтинг";
 					break;
 				case 'en':
 					echo "RSM Ukraine - Audit | Tax | Consulting";

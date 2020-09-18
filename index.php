@@ -55,7 +55,7 @@
 									echo "43,000  експертів, 120+ країн, 6-та найбільша мережа аудиторських та консалтингових фірм у світі";
 									break;
 								case 'en':
-									echo "43,000 professionals, 120+ countries, 6th world's largest audit and consulting firms network";
+									echo "43,000professionals, 120+ countries, 6th world's largest audit and consulting firms network";
 									break;
 								} 
 							?>

@@ -46,7 +46,7 @@
 						}?>
 					</div>
 					<div class="content-block__image about">
-						<img src = "images/sth.png">
+						<img src = "/images/services_image.png">
 					</div>
 					<div class="content-block__content">
 						<div class="content-block__text">
@@ -89,7 +89,7 @@
 						}  ?>
 					</div>
 					<div class="content-block__image services">
-						<img src = "/images/services_image.png">
+						<img src = "images/sth.png">
 					</div>
 					<div class="content-block__content">
 						<div class="content-block__text">

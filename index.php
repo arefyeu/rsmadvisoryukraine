@@ -41,7 +41,7 @@
 							echo "Про нас";
 							break;
 						case 'en':
-							echo "About us";
+							echo "Aboutus";
 							break;
 						}?>
 					</div>

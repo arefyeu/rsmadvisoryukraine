@@ -38,10 +38,10 @@
 					<div class="content-block__title">
 						<?php switch ($lang) {
 						case 'ua':
-							echo "РСМ в Україні - Про нас";
+							echo "Про нас";
 							break;
 						case 'en':
-							echo "RSM Ukraine - About us";
+							echo "About us";
 							break;
 						}?>
 					</div>

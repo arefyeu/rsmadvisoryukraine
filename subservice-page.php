@@ -3,7 +3,6 @@
 ?>
 	<title>
 		<?php
-			require('queries_functions.php');
 			$current_service = get_service_by_name(str_replace('-', ' ', $_GET['service_name']));
 			$service_id = $current_service['service_id'];
 			$current_subservice = get_subservice_by_name(str_replace('-', ' ', $_GET['name']));

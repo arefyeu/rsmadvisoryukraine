@@ -65,10 +65,10 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 6px;
-			width: 10px;
+			height: 3px;
+			width: 20px;
 			background-color: rgba(255,255,255,1);
-			left: 0;
+			left: -5px;
 			top: 0;
 			transform: rotate(-60deg);
 		}
@@ -77,9 +77,9 @@
 			content: '';
 			display: block;
 			height: 3px;
-			width: 10px;
+			width: 20px;
 			background-color: rgba(255,255,255,1);
-			left: 0;
+			left: -5px;
 			top: 0;
 			transform: rotate(60deg);
 		}

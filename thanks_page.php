@@ -15,11 +15,12 @@
 	</title>
 	<style>
 		.thank-you__content {
-			padding: 100px 10px;
+			padding: 250px 10px;
 		}
 		.thank-you__content {
-			font-size: 40px;
+			font-size: 60px;
 			color: rgba(63,156,53);
+			text-align: center;
 		}
 	</style>
 	<?php require('header_new.php');?>

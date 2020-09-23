@@ -25,8 +25,8 @@
 			justify-content: center;
 		}
 		.bird__circle {
-			width: 100px;
-			height: 100px;
+			width: 80px;
+			height: 80px;
 			background: rgba(255,255,255,1);
 			border: 2px solid rgba(63,156,53);
 			border-radius: 50%;
@@ -37,7 +37,7 @@
 		.bird {
 			height: 20px;
 			width: 40px;
-			border: 5px solid rgba(63,156,53,1);
+			border: 6px solid rgba(63,156,53,1);
 			border-right: none;
 			border-top: none;
 			transform: rotate(-45deg);
@@ -57,13 +57,6 @@
 	<div class="thank-you__content-container">
 		<div class="container">
 			<div class="thank-you__content">
-				<div class="bird-container">
-					<div class="bird__circle">
-						<div class="bird">
-							
-						</div>
-					</div>
-				</div>
 				<div class="thank-you__title">
 					<?php
 						switch ($lang) {
@@ -75,6 +68,13 @@
 								break;
 						}
 					?>
+				</div>
+				<div class="bird-container">
+					<div class="bird__circle">
+						<div class="bird">
+							
+						</div>
+					</div>
 				</div>
 				<div class="thank-you__sub-title">
 					Thank you for the offer. We will contact you as soon as possible.

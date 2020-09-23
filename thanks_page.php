@@ -68,16 +68,11 @@
 			height: 15px;
 			width: 15px;
 			left: -5px;
-			top: -7px;
+			top: -7.5px;
 			border: 6px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;
 			transform: rotate(45deg);
-		}
-		.bird__circle:hover .bird::after {
-			position: absolute;
-			content: 'back to main';
-			display: block;
 		}
 		.thank-you__title {
 			font-size: 60px;

@@ -24,10 +24,6 @@
 			align-items: center;
 			justify-content: center;
 		}
-		.bird-container :hover {
-			padding: 15px;
-			transition: 0.5s;
-		}
 		.bird__circle {
 			position: relative;
 			width: 90px;
@@ -48,7 +44,6 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 130px;
-			height: 60px;
 		}
 		.back-to-main {
 			position: absolute;

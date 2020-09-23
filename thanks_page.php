@@ -49,7 +49,8 @@
 			position: absolute;
 			color:rgba(255,255,255,1);
 			height: 0;
-			display: block;
+			display: flex;
+			align-items: center;
 			right: 0;
 			overflow: hidden;
 			transition: 0.5s;

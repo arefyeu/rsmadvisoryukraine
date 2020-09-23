@@ -67,7 +67,7 @@
 			border-right: none;
 			border-top: none;
 			transform: rotate(45deg);
-			transition: 0.7s;
+			transition: 0.5s;
 		}
 
 		.bird__circle:hover .bird {

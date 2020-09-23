@@ -61,16 +61,27 @@
 			height: 0;
 			transform: rotate(0deg);
 		}
+		.bird__circle:hover .bird::before {
+			position: absolute;
+			content: '';
+			display: block;
+			height: 6px;
+			width: 10px;
+			background-color: rgba(255,255,255,1);
+			left: 0;
+			top: 0;
+			transform: rotate(-60deg);
+		}
 		.bird__circle:hover .bird::after {
 			position: absolute;
 			content: '';
 			display: block;
-			height: 3px;
-			width: 5px;
+			height: 6px;
+			width: 10px;
 			background-color: rgba(255,255,255,1);
 			left: 0;
 			top: 0;
-			transform: rotate(-45deg);
+			transform: rotate(60deg);
 		}
 		.thank-you__title {
 			font-size: 60px;

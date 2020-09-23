@@ -76,7 +76,7 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 6px;
+			height: 3px;
 			width: 10px;
 			background-color: rgba(255,255,255,1);
 			left: 0;

@@ -50,7 +50,6 @@
 			color:rgba(255,255,255,1);
 			height: 0;
 			display: block;
-			padding:30px;
 			right: 0;
 			overflow: hidden;
 			transition: 0.5s;
@@ -60,6 +59,7 @@
 			height: 100%;
 			width: 150px;
 			right: 20px;
+			padding:10px;
 			font-size: 18px;
 		}
 		.bird {

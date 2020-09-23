@@ -8,9 +8,10 @@
 	 $message .= "Интересующие услуги: ";
 	 foreach ($_POST as $key => $value) {
 	 	if($value == "on") {
-	  		echo "here";
+	  		$message .= strval($key).", "
 	 	}
 	 }
+	 echo $message;
 	 //$message = substr($message, 0, -2);
 	 //echo "$message";
 	 //if ($_GET['sent'] and isset($_POST['name']) and isset($_POST['company'])) {

@@ -38,6 +38,7 @@
 		.bird__circle::before {
 			width: 102px;
 			height: 0px;
+			border-radius: 50%;
 			position: absolute;
 			content: '';
 			display: block;

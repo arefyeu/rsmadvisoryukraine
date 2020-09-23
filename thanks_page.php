@@ -41,8 +41,8 @@
 			background-color: rgba(63,156,53,1);
 			cursor: pointer;
 			border: 1px solid rgba(13,106,3,1);
-			width: 150px;
-			border-radius: 15%;
+			width: 250px;
+			border-radius: 35%;
 		}
 		.bird {
 			height: 20px;

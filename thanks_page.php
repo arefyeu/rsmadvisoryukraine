@@ -55,6 +55,20 @@
 			transition: 0.5s;
 			position: relative;
 		}
+		.bird::before {
+			position: absolute;
+			content: '';
+			display: block;
+			height: 15px;
+			width: 15px;
+			left: -5px;
+			top: -7.5px;
+			border: 6px solid rgba(255,255,255,0);
+			border-right: none;
+			border-top: none;
+			transform: rotate(45deg);
+			transition: 0.7s;
+		}
 
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);

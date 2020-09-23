@@ -65,11 +65,11 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 20px;
-			width: 20px;
+			height: 10px;
+			width: 10px;
 			left: 0px;
-			top: 0;
-			border: 4px solid rgba(255,255,255,1);
+			top: -3px;
+			border: 6px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;
 			transform: rotate(45deg);

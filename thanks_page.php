@@ -69,7 +69,7 @@
 			transition: 0.5s;
 			font-size: 0;
 		}
-		.bird__circle:hover .back-to-main{
+		.bird-container:hover .back-to-main{
 			height: 100%;
 			right: 0px;
 			font-size: 18px;
@@ -99,14 +99,14 @@
 			transform: rotate(45deg);
 			transition: 0.5s;
 		}
-		.bird__circle:hover .bird {
+		.bird-container:hover .bird {
 			border-color: rgba(255,255,255,1);
 			height: 0;
 			width: 30px;
 			border-width: 4px;
 			transform: rotate(0deg);
 		}
-		.bird__circle:hover .bird::before {
+		.bird-container:hover .bird::before {
 			border: 4px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;

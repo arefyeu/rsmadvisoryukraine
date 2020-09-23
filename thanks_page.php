@@ -36,9 +36,10 @@
 		.bird {
 			height: 20px;
 			width: 40px;
-			border: 10px solid rgba(63,156,53,1);
+			border: 5px solid rgba(63,156,53,1);
 			border-right: none;
 			border-top: none;
+			transform: rotate(-45deg)
 		}
 		.thank-you__title {
 			font-size: 60px;

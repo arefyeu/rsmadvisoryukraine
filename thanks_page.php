@@ -47,8 +47,11 @@
 		}
 		.back-to-main {
 			position: absolute;
-			font-size: 20px;
-			top: 10px;
+			font-size: 18px;
+			color:rgba(255,255,255,1);
+			height: 100%;
+			display: block;
+			padding:30px;
 			right: 0;
 
 		}

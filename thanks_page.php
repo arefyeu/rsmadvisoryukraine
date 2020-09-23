@@ -40,7 +40,7 @@
 			position: absolute;
 			content: '';
 			display: block;
-			background: rgba(63,156,53);
+			background: rgba(13,106,3);
 			top: -1px;
 			left: -1px;
 			transition: 0.5s;

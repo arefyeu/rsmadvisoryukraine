@@ -24,6 +24,9 @@
 			align-items: center;
 			justify-content: center;
 		}
+		.bird-container :hover {
+			padding: 15px;
+		}
 		.bird__circle {
 			position: relative;
 			width: 90px;

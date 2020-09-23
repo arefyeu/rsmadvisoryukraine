@@ -32,6 +32,7 @@
 			border-radius: 50%;
 			display: flex; align-items: center;
 			justify-content: center;
+			padding-bottom: 10px;
 		}
 		.bird {
 			height: 20px;
@@ -39,7 +40,7 @@
 			border: 5px solid rgba(63,156,53,1);
 			border-right: none;
 			border-top: none;
-			transform: rotate(-45deg)
+			transform: rotate(-45deg);
 		}
 		.thank-you__title {
 			font-size: 60px;

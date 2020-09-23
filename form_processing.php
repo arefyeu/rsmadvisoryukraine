@@ -1,5 +1,4 @@
 <?php
-	echo "string";
 	 $name = $_POST['name'];
 	 $company = $_POST['company'];
 	 $subject = "Заявка с сайта";
@@ -7,12 +6,9 @@
 	 $message .= "Компания: ".strval($_POST['company'])."\r\n";
 	 $message .= "Примечания: ".strval($_POST['note'])."\r\n";
 	 $message .= "Интересующие услуги: ";
-	 echo "$message";
-	 //foreach ($_POST as $key => $value) {
-	 	//if($value=="on") {
-	  		//$message. == strval($key).", ";
-	 	//}
-	 //}
+	 foreach ($_POST as $key => $value) {
+	 	echo $value;
+	 }
 	 //$message = substr($message, 0, -2);
 	 //echo "$message";
 	 //if ($_GET['sent'] and isset($_POST['name']) and isset($_POST['company'])) {

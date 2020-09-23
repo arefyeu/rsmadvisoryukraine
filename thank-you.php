@@ -140,17 +140,19 @@
 					?>
 				</div>
 				<div class="bird-container">
-					<div class="bird__circle">
-						<div class="back-to-main">
-							To main page
+					<a href = "/<?php echo $lang?>">
+						<div class="bird__circle">
+							<div class="back-to-main">
+								To main page
+							</div>
+							<div class="bird">
+								
+							</div>
 						</div>
-						<div class="bird">
-							
-						</div>
-					</div>
+					</a>
 				</div>
 				<div class="thank-you__sub-title">
-					<a href = "/<?php echo $lang?>">Thank you for the offer. We will contact you as soon as possible.</a>
+					Thank you for the offer. We will contact you as soon as possible.
 				</div>
 			</div>
 		</div>

@@ -13,11 +13,11 @@
 	 }
 	 $message = substr($message, 0, -2).".";
 	 echo $message;
-	 //if ($_GET['sent'] and isset($_POST['name']) and isset($_POST['company'])) {
-	 //	mail("evgeniyrepetsky@gmail.com", $subject, $message);
-	 //}
-	 //$lang = $_GET['lang'];
-	 //header("location:/$lang");
+	 if ($_GET['sent'] and isset($_POST['name']) and isset($_POST['company'])) {
+	 	mail("evgeniyrepetsky@gmail.com", $subject, $message);
+	 }
+	 $lang = $_GET['lang'];
+	 header("location:/$lang");
 	 //a.arefyeu@rsm.ua
 ?>
 

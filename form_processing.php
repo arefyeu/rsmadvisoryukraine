@@ -8,7 +8,7 @@
 	 $message .= "Интересующие услуги: ";
 	 foreach ($_POST as $key => $value) {
 	 	if($value == "on") {
-	  		$message .= strval($key).", "
+	  		$message .= strval($key).", ";
 	 	}
 	 }
 	 echo $message;

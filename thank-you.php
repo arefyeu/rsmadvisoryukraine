@@ -33,7 +33,16 @@
 					<a href = "/<?php echo $lang?>">
 						<div class="bird__circle">
 							<div class="back-to-main">
-								To main page
+								<?php
+									switch ($lang) {
+										case 'ua':
+											echo "На головну!";
+											break;
+										case 'en':
+											echo "To main page!";
+											break;
+									}
+								?>
 							</div>
 							<div class="bird">
 								
@@ -42,7 +51,16 @@
 					</a>
 				</div>
 				<div class="thank-you__sub-title">
-					Thank you for the offer. We will contact you as soon as possible.
+					<?php
+						switch ($lang) {
+							case 'ua':
+								echo "Дякуємо за пропозицію. Ми зв'яжемося з вами якомога швидше.";
+								break;
+							case 'en':
+								echo "Thank you for the offer. We will contact you as soon as possible.";
+								break;
+						}
+					?>	
 				</div>
 			</div>
 		</div>

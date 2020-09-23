@@ -58,6 +58,8 @@
 		}
 		.bird__circle:hover .back-to-main{
 			height: 100%;
+			width: 150px;
+			right: 20px;
 		}
 		.bird {
 			height: 20px;
@@ -125,7 +127,7 @@
 				<div class="bird-container">
 					<div class="bird__circle">
 						<div class="back-to-main">
-							Back to main page
+							To main page
 						</div>
 						<div class="bird">
 							

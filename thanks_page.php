@@ -43,7 +43,7 @@
 			width: 240px;
 			border-radius: 50px;
 			padding-bottom: 0px;
-			padding-right: 110px;
+			padding-right: 130px;
 		}
 		.back-to-main {
 			position: absolute;

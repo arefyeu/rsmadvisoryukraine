@@ -60,7 +60,7 @@
 		}
 		.bird__circle:hover .back-to-main{
 			height: 100%;
-			right: 10px;
+			right: 0px;
 			font-size: 18px;
 			transform: scaleX(1);
 		}

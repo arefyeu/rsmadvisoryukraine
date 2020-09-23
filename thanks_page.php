@@ -14,9 +14,21 @@
 		?>
 	</title>
 	<style>
+
 		.thank-you__content {
 			padding: 250px 10px;
 			text-align: center;
+		}
+		.bird-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.bird__circle {
+			width: 20px;
+			height: 20px;
+			background: red;
+			border-radius: 50%;
 		}
 		.thank-you__title {
 			font-size: 60px;
@@ -33,6 +45,11 @@
 	<div class="thank-you__content-container">
 		<div class="container">
 			<div class="thank-you__content">
+				<div class="bird-container">
+					<div class="bird__circle">
+						
+					</div>
+				</div>
 				<div class="thank-you__title">
 					<?php
 						switch ($lang) {

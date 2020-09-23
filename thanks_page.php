@@ -73,11 +73,11 @@
 			border-color: rgba(255,255,255,1);
 			height: 0;
 			width: 30px;
-			border-width: 3px;
+			border-width: 4px;
 			transform: rotate(0deg);
 		}
 		.bird__circle:hover .bird::before {
-			border: 3px solid rgba(255,255,255,1);
+			border: 4px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;
 		}

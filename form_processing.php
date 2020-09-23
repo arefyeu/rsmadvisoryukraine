@@ -8,9 +8,10 @@
 	 $message .= "Примечания: ".strval($_POST['note'])."\r\n";
 	 $message .= "Интересующие услуги: "
 	 foreach ($_POST as $key => $value) {
-	 	if($value=="on") {
-	  		$message. == strval($key).", ";
-	 	}
+	 	echo "$key";
+	 	//if($value=="on") {
+	  		//$message. == strval($key).", ";
+	 	//}
 	 }
 	 $message = substr($message, 0, -2).".";
 	 echo "$message";

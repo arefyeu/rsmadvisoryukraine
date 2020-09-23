@@ -40,7 +40,7 @@
 		.bird__circle:hover {
 			background-color: rgba(63,156,53,1);
 			cursor: pointer;
-			width: 200px;
+			width: 240px;
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 100px;

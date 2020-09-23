@@ -16,7 +16,7 @@
 	<style>
 
 		.thank-you__content {
-			padding: 250px 10px;
+			padding: 200px 10px;
 			text-align: center;
 		}
 		.bird-container {
@@ -25,14 +25,31 @@
 			justify-content: center;
 		}
 		.bird__circle {
-			width: 80px;
-			height: 80px;
+			width: 100px;
+			height: 100px;
 			background: rgba(255,255,255,1);
-			border: 2px solid rgba(63,156,53);
 			border-radius: 50%;
 			display: flex; align-items: center;
 			justify-content: center;
 			padding-bottom: 10px;
+			transition: 
+		}
+		.bird__circle::before {
+			width: 102px;
+			height: 0px;
+			position: absolute;
+			content: '';
+			display: block;
+			background: rgba(63,156,53);
+			top: -1px;
+			left: -1px;
+			transition: 0.5s;
+		}
+		.bird__circle:hover {
+			background-color: rgba(63,156,53,1);
+		}
+		.bird__circle:hover:before {
+			height: 102px;
 		}
 		.bird {
 			height: 20px;
@@ -49,7 +66,7 @@
 		}
 		.thank-you__sub-title {
 			font-size: 20px;
-			padding: 0px 20px;
+			padding: 20px;
 			color: rgba(99,102,106);
 		}
 	</style>

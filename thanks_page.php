@@ -16,11 +16,17 @@
 	<style>
 		.thank-you__content {
 			padding: 250px 10px;
+			text-align: center;
 		}
-		.thank-you__content {
+		.thank-you__title {
 			font-size: 60px;
 			color: rgba(63,156,53);
-			text-align: center;
+			padding: 20px;
+		}
+		.thank-you__sub-title {
+			font-size: 25px;
+			padding: 20px;
+			color: rgba(99,102,106);
 		}
 	</style>
 	<?php require('header_new.php');?>
@@ -34,10 +40,13 @@
 								echo "Дякуємо!";
 								break;
 							case 'en':
-								echo "Thank you";
+								echo "Thank you!";
 								break;
 						}
 					?>
+				</div>
+				<div class="thank-you__sub-title">
+					Thank you for the offer. We will contact you as soon as possible.
 				</div>
 			</div>
 		</div>

@@ -65,23 +65,14 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 3px;
+			height: 20px;
 			width: 20px;
-			background-color: rgba(255,255,255,1);
-			left: -5px;
+			left: 0px;
 			top: 0;
-			transform: rotate(-60deg);
-		}
-		.bird__circle:hover .bird::after {
-			position: absolute;
-			content: '';
-			display: block;
-			height: 3px;
-			width: 20px;
-			background-color: rgba(255,255,255,1);
-			left: -5px;
-			top: 0;
-			transform: rotate(60deg);
+			border: 4px solid rgba(255,255,255,1);
+			border-right: none;
+			border-top: none;
+			transform: rotate(45deg);
 		}
 		.thank-you__title {
 			font-size: 60px;

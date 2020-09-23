@@ -1,9 +1,9 @@
 <?php
 	echo "string";
 	 $name = $_POST['name'];
-	 //$company = $_POST['company'];
-	 //$subject = "Заявка с сайта";
-	 //$message = "Имя: ".strval($_POST['name'])."\r\n";
+	 $company = $_POST['company'];
+	 $subject = "Заявка с сайта";
+	 $message = "Имя: ".strval($_POST['name'])."\r\n";
 	 //$message .= "Компания: ".strval($_POST['company'])."\r\n";
 	 //$message .= "Примечания: ".strval($_POST['note'])."\r\n";
 	 //$message. = "Интересующие услуги: "

@@ -77,6 +77,8 @@
 		}
 		.bird__circle:hover .bird::before {
 			border: 6px solid rgba(255,255,255,1);
+			border-right: none;
+			border-top: none;
 		}
 		.thank-you__title {
 			font-size: 60px;

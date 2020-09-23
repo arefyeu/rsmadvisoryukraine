@@ -3097,4 +3097,10 @@ h1.publication__h1 {
 		color: rgba(63,156,53);
 		padding: 20px;
 	}
+	.thank-you__sub-title {
+		font-size: 15px;
+		padding: 30px 20px;
+		color: rgba(99,102,106);
+		line-height: 20px;
+	}
 }

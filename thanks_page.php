@@ -29,7 +29,7 @@
 			height: 100px;
 			background: rgba(255,255,255,1);
 			border-radius: 50%;
-			border: 1px solid rgba(63,156,53,1)
+			border: 1px solid rgba(63,156,53,1);
 			display: flex;
 			align-items: center;
 			justify-content: center;

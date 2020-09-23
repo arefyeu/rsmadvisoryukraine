@@ -44,6 +44,7 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 130px;
+			height: 60px;
 		}
 		.back-to-main {
 			position: absolute;

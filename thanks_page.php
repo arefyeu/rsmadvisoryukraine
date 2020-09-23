@@ -16,7 +16,7 @@
 	<style>
 
 		.thank-you__content {
-			padding: 200px 10px;
+			padding: 150px 10px;
 			text-align: center;
 		}
 		.bird-container {
@@ -44,6 +44,11 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 110px;
+		}
+		.back-to-main {
+			position: absolute;
+			left: 0;
+			top: 0;
 		}
 		.bird {
 			height: 20px;
@@ -110,6 +115,9 @@
 				</div>
 				<div class="bird-container">
 					<div class="bird__circle">
+						<div class="back-to-main">
+							Back to main page
+						</div>
 						<div class="bird">
 							
 						</div>

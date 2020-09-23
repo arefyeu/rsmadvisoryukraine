@@ -53,7 +53,7 @@
 			width: 240px;
 			border-radius: 50px;
 			padding-bottom: 0px;
-			padding-right: 130px;
+			padding-right: 140px;
 			height: 60px;
 		}
 		.back-to-main {
@@ -71,7 +71,7 @@
 		}
 		.bird-container:hover .back-to-main{
 			height: 100%;
-			right: 0px;
+			right: 10px;
 			font-size: 18px;
 			transform: scaleX(1);
 		}

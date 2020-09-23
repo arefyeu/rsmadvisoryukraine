@@ -45,6 +45,9 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 130px;
+			
+		}
+		.bird-container:hover .bird__circle {
 			height: 60px;
 		}
 		.back-to-main {

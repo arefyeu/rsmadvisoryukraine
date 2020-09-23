@@ -47,7 +47,6 @@
 		}
 		.back-to-main {
 			position: absolute;
-			font-size: 18px;
 			color:rgba(255,255,255,1);
 			height: 0;
 			display: block;
@@ -55,11 +54,13 @@
 			right: 0;
 			overflow: hidden;
 			transition: 0.5s;
+			font-size: 0;
 		}
 		.bird__circle:hover .back-to-main{
 			height: 100%;
 			width: 150px;
 			right: 20px;
+			font-size: 18px;
 		}
 		.bird {
 			height: 20px;

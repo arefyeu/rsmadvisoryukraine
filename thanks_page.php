@@ -49,18 +49,21 @@
 			position: absolute;
 			color:rgba(255,255,255,1);
 			height: 0;
+			width: 150px;
+			transform: scaleX(0);
 			display: flex;
 			align-items: center;
+			right: 0;
+			padding:10px;
 			overflow: hidden;
 			transition: 0.5s;
 			font-size: 0;
 		}
 		.bird__circle:hover .back-to-main{
 			height: 100%;
-			width: 150px;
 			right: 20px;
-			padding:10px;
 			font-size: 18px;
+			transform: scaleX(1);
 		}
 		.bird {
 			height: 20px;

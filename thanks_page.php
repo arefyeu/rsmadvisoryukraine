@@ -63,7 +63,7 @@
 			width: 15px;
 			left: -5px;
 			top: -7.5px;
-			border: 6px solid rgba(255,255,255,0);
+			border: 6px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;
 			transform: rotate(45deg);

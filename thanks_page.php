@@ -25,10 +25,20 @@
 			justify-content: center;
 		}
 		.bird__circle {
-			width: 20px;
-			height: 20px;
-			background: red;
+			width: 100px;
+			height: 100px;
+			background: rgba(255,255,255,1);
+			border: 2px solid rgba(63,156,53);
 			border-radius: 50%;
+			display: flex; align-items: center;
+			justify-content: center;
+		}
+		.bird {
+			height: 20px;
+			width: 40px;
+			border: 10px solid rgba(63,156,53,1);
+			border-right: none;
+			border-top: none;
 		}
 		.thank-you__title {
 			font-size: 60px;
@@ -47,7 +57,9 @@
 			<div class="thank-you__content">
 				<div class="bird-container">
 					<div class="bird__circle">
-						
+						<div class="bird">
+							
+						</div>
 					</div>
 				</div>
 				<div class="thank-you__title">

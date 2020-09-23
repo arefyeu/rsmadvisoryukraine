@@ -26,6 +26,7 @@
 		}
 		.bird-container :hover {
 			padding: 15px;
+			transition: 0.5s;
 		}
 		.bird__circle {
 			position: relative;

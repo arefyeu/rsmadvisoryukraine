@@ -21,8 +21,9 @@
 		}
 		.bird-container {
 			display: flex;
-			align-items: center;
 			justify-content: center;
+			height: 90px;
+			align-items: flex-start;
 		}
 		.bird__circle {
 			position: relative;
@@ -44,6 +45,7 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 130px;
+			height: 60px;
 		}
 		.back-to-main {
 			position: absolute;

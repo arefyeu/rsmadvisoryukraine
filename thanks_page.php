@@ -51,7 +51,6 @@
 			height: 0;
 			display: flex;
 			align-items: center;
-			right: 0;
 			overflow: hidden;
 			transition: 0.5s;
 			font-size: 0;

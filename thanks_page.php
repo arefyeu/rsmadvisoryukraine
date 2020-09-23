@@ -72,10 +72,11 @@
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);
 			height: 0;
+			border-width: 4px;
 			transform: rotate(0deg);
 		}
 		.bird__circle:hover .bird::before {
-			border: 6px solid rgba(255,255,255,1);
+			border: 4px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;
 		}

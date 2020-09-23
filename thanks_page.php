@@ -89,10 +89,10 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 15px;
-			width: 15px;
+			height: 12px;
+			width: 12px;
 			left: -3px;
-			top: -8.5px;
+			top: -7.5px;
 			border: 0px solid rgba(255,255,255,0);
 			border-right: none;
 			border-top: none;

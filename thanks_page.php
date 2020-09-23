@@ -65,10 +65,10 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 10px;
-			width: 10px;
-			left: 0px;
-			top: -3px;
+			height: 15px;
+			width: 15px;
+			left: -3px;
+			top: -6px;
 			border: 6px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;

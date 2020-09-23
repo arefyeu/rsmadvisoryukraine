@@ -45,9 +45,15 @@
 			border-radius: 50px;
 			padding-bottom: 0px;
 			padding-right: 130px;
-			
+			height: 60px;
 		}
 		.bird-container:hover .bird__circle {
+			background-color: rgba(63,156,53,1);
+			cursor: pointer;
+			width: 240px;
+			border-radius: 50px;
+			padding-bottom: 0px;
+			padding-right: 130px;
 			height: 60px;
 		}
 		.back-to-main {

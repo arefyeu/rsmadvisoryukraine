@@ -40,9 +40,10 @@
 		.bird__circle:hover {
 			background-color: rgba(63,156,53,1);
 			cursor: pointer;
-			border: 1px solid rgba(13,106,3,1);
+			border: 1px solid rgba(33,126,23,1);
 			width: 250px;
 			border-radius: 50px;
+			padding-bottom: 0px;
 		}
 		.bird {
 			height: 20px;
@@ -56,7 +57,9 @@
 
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);
-			height: 0;
+			width: 20px;
+			transform: rotate(0deg);
+			transform: scaleY(-1);
 		}
 		.thank-you__title {
 			font-size: 60px;

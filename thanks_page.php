@@ -32,7 +32,7 @@
 			display: flex; align-items: center;
 			justify-content: center;
 			padding-bottom: 10px;
-			transition: 
+			transition: 0.5s;
 		}
 		.bird__circle::before {
 			width: 102px;
@@ -58,6 +58,10 @@
 			border-right: none;
 			border-top: none;
 			transform: rotate(-45deg);
+			transition: 0.5s;
+		}
+		.bird__circle:hover .bird {
+			border-color: rgba(255,255,255,1);
 		}
 		.thank-you__title {
 			font-size: 60px;

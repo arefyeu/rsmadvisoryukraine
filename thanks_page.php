@@ -24,8 +24,8 @@
 			padding: 20px;
 		}
 		.thank-you__sub-title {
-			font-size: 25px;
-			padding: 20px;
+			font-size: 20px;
+			padding: 0px 20px;
 			color: rgba(99,102,106);
 		}
 	</style>

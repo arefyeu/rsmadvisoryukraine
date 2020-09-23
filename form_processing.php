@@ -17,7 +17,7 @@
 	 	mail("evgeniyrepetsky@gmail.com", $subject, $message);
 	 }
 	 $lang = $_GET['lang'];
-	 header("location/thank-you/$lang");
+	 header("location:/thank-you/$lang");
 	 //a.arefyeu@rsm.ua
 ?>
 

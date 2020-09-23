@@ -48,7 +48,6 @@
 		.back-to-main {
 			position: absolute;
 			font-size: 20px;
-			color: 
 			top: 10px;
 			right: 0;
 

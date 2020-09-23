@@ -57,9 +57,8 @@
 
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);
-			width: 20px;
+			height: 0;
 			transform: rotate(0deg);
-			transform: scaleY(-1);
 		}
 		.thank-you__title {
 			font-size: 60px;

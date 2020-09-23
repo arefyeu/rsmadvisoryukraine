@@ -42,7 +42,7 @@
 			cursor: pointer;
 			border: 1px solid rgba(13,106,3,1);
 			width: 250px;
-			border-radius: 20px;
+			border-radius: 50px;
 		}
 		.bird {
 			height: 20px;

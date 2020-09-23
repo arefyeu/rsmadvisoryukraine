@@ -73,6 +73,7 @@
 			border-right: none;
 			border-top: none;
 			transform: rotate(45deg);
+			transition: 1s 0.5s;
 		}
 		.thank-you__title {
 			font-size: 60px;

@@ -40,7 +40,6 @@
 		.bird__circle:hover {
 			background-color: rgba(63,156,53,1);
 			cursor: pointer;
-			border: 1px solid rgba(33,126,23,1);
 			width: 250px;
 			border-radius: 50px;
 			padding-bottom: 0px;
@@ -54,12 +53,24 @@
 			border-top: none;
 			transform: rotate(-45deg);
 			transition: 0.5s;
+			position: relative;
 		}
 
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);
 			height: 0;
 			transform: rotate(0deg);
+		}
+		.bird__circle:hover .bird::after {
+			position: absolute;
+			content: '';
+			display: block;
+			height: 3px;
+			width: 5px;
+			background-color: rgba(255,255,255,1);
+			left: 0;
+			top: 0;
+			transform: rotate(-45deg);
 		}
 		.thank-you__title {
 			font-size: 60px;
@@ -68,7 +79,7 @@
 		}
 		.thank-you__sub-title {
 			font-size: 20px;
-			padding: 20px;
+			padding: 30px 20px;
 			color: rgba(99,102,106);
 		}
 	</style>

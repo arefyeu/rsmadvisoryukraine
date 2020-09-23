@@ -67,8 +67,8 @@
 			display: block;
 			height: 15px;
 			width: 15px;
-			left: -3px;
-			top: -6px;
+			left: -5px;
+			top: -8px;
 			border: 6px solid rgba(255,255,255,1);
 			border-right: none;
 			border-top: none;

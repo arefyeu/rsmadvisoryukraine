@@ -23,6 +23,7 @@
 			display: flex;
 			justify-content: center;
 			height: 90px;
+			align-items: center;
 		}
 		.bird__circle {
 			position: relative;

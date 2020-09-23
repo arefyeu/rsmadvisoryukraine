@@ -33,6 +33,7 @@
 			justify-content: center;
 			padding-bottom: 10px;
 			transition: 0.5s;
+			position: relative;
 		}
 		.bird__circle::before {
 			width: 102px;

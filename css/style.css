@@ -3061,7 +3061,7 @@ h1.publication__h1 {
 	color: rgba(99,102,106);
 	line-height: 30px;
 }
-@media and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.thank-you__content {
 		padding: 150px 10px 60px 10px;
 	}
@@ -3074,7 +3074,7 @@ h1.publication__h1 {
 		padding-right: 130px;
 		height: 60px;
 	}
-	.back-to-main{
+	.back-to-main {
 		height: 100%;
 		right: 10px;
 		font-size: 18px;

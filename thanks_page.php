@@ -62,7 +62,7 @@
 			height: 17px;
 			width: 17px;
 			left: -5px;
-			top: -8px;
+			top: -8.5px;
 			border: 0px solid rgba(255,255,255,0);
 			border-right: none;
 			border-top: none;

@@ -89,8 +89,8 @@
 			position: absolute;
 			content: '';
 			display: block;
-			height: 17px;
-			width: 17px;
+			height: 15px;
+			width: 15px;
 			left: -3px;
 			top: -8.5px;
 			border: 0px solid rgba(255,255,255,0);
@@ -102,7 +102,7 @@
 		.bird-container:hover .bird {
 			border-color: rgba(255,255,255,1);
 			height: 0;
-			width: 30px;
+			width: 25px;
 			border-width: 4px;
 			transform: rotate(0deg);
 		}

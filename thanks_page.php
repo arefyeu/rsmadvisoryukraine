@@ -25,20 +25,21 @@
 			justify-content: center;
 		}
 		.bird__circle {
-			width: 100px;
-			height: 100px;
+			position: relative;
+			width: 90px;
+			height: 90px;
 			background: rgba(255,255,255,1);
 			border-radius: 50%;
 			border: 1px solid rgba(63,156,53,1);
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			padding-bottom: 10px;
 			transition: 0.5s;
-			position: relative;
+			padding-bottom: 10px;
 		}
 		.bird__circle:hover {
 			background-color: rgba(63,156,53,1);
+			cursor: pointer;
 		}
 		.bird {
 			height: 20px;
@@ -49,8 +50,10 @@
 			transform: rotate(-45deg);
 			transition: 0.5s;
 		}
+
 		.bird__circle:hover .bird {
 			border-color: rgba(255,255,255,1);
+			height: 0;
 		}
 		.thank-you__title {
 			font-size: 60px;

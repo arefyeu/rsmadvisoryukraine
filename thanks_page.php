@@ -43,7 +43,7 @@
 			width: 240px;
 			border-radius: 50px;
 			padding-bottom: 0px;
-			padding-right: 100px;
+			padding-right: 110px;
 		}
 		.bird {
 			height: 20px;

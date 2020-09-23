@@ -7,7 +7,9 @@
 	 $message .= "Примечания: ".strval($_POST['note'])."\r\n";
 	 $message .= "Интересующие услуги: ";
 	 foreach ($_POST as $key => $value) {
-	 	echo $value;
+	 	if($value == "on") {
+	  		echo "here";
+	 	}
 	 }
 	 //$message = substr($message, 0, -2);
 	 //echo "$message";

@@ -288,6 +288,7 @@
 		position: relative;
 		font-size: 13px;
 		font-weight: normal;
+		line-height: 19px;
 	}
 	.submenu__button::after {
 		content: '';

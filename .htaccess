@@ -7,6 +7,8 @@ RewriteRule ^publication-page/([^/]+)/?$ publication-page.php?title=$1
 RewriteRule ^publication-page/([^/]+)/([^/]+)?$ publication-page.php?title=$1&lang=$2
 RewriteRule ^experts/([^/]+)/?$ experts.php?lang=$1
 RewriteRule ^experts/?$ experts.php
+RewriteRule ^thank-you/([^/]+)/?$ thank-you.php?lang=$1
+RewriteRule ^thank-you/?$ thank-you.php
 RewriteRule ^about/([^/]+)/?$ about.php?lang=$1
 RewriteRule ^about/?$ about.php
 RewriteRule ^contacts/([^/]+)/?$ contacts.php?lang=$1

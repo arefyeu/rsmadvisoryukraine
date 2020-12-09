@@ -46,7 +46,7 @@
 						}
 					?>
 				</div>
-				<form id = "contact_form" action="/form_processing.php?sent=true&lang=<?php echo $lang;?>" method="POST" autocomplete="off">
+				<form id = "contact_form" action="/form_processing.php?lang=<?php echo $lang;?>" method="POST" autocomplete="off">
 					<div class="text_inputs_container">
 						<div class="text_input_container">
 							<input class="text_input" type="text" name="name" onchange="change_placeholder(this)">

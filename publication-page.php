@@ -23,20 +23,20 @@
 		<div class="container">
 			<div class="publication__publication-content">
 				<div class="publication_info">
-					<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Global") { ?>
+					<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Consult Ukraine") { ?>
 						<a href = "/expert-page/<?php echo $expert['first_name_en']."-".$expert['last_name_en']; add_lang_reference($lang)?>">
 					<?php } ?>
 							<img src="/<?php echo($expert['image_reference'])?>" class = "publication_expert_photo">
-					<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Global") { ?>
+					<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Consult Ukraine") { ?>
 						</a>
 					<?php } ?>
 					<div class="publication_expert_info">
 						<div class="publication_expert_name">
-						<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Global") { ?>
+						<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Consult Ukraine") { ?>
 							<a href = "/expert-page/<?php echo $expert['first_name_en']."-".$expert['last_name_en']; add_lang_reference($lang)?>">
 						<?php } ?>
 								<?php echo $expert['first_name'.'_'.$lang]." ".$expert['last_name'.'_'.$lang]; ?>
-						<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Global") { ?>
+						<?php if ($expert['first_name_en'].' '.$expert['last_name_en'] != "RSM Consult Ukraine") { ?>
 							</a>
 						<?php } ?>
 						</div>
